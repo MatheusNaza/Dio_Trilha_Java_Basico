@@ -9,9 +9,8 @@ public class Usuario {
         System.out.println("TV ligada ? " + smartTv.ligada);
         System.out.println("Canal " + smartTv.canal);
         System.out.println("Volume " + smartTv.volume);
-        
 
-        smartTv.ligar ();
+        smartTv.ligar();
         System.out.println("TV ligada ? " + smartTv.ligada);
 
         smartTv.aumentarVolume();
@@ -25,7 +24,7 @@ public class Usuario {
 
         smartTv.desligar();
         System.out.println("TV ligada ? " + smartTv.ligada);
-        
+
     }
-    
+
 }
